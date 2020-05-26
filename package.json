@@ -1,0 +1,37 @@
+{
+  "name": "demo-basic-podium",
+  "version": "1.0.0",
+  "description": "demo a very basic example of micro frontends with Podium",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "runPodA": "cd Podlet-a && node index.js",
+    "runPodB": "cd Podlet-b && node index.js",
+    "runLayout": "cd Layout && node index.js",
+    "start": "npm-run-all --parallel runPodA runPodB runLayout"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jozzeh/podium-basic-example.git"
+  },
+  "keywords": [
+    "demo",
+    "podium",
+    "frontend"
+  ],
+  "author": "Jozzeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jozzeh/podium-basic-example/issues"
+  },
+  "homepage": "https://github.com/Jozzeh/podium-basic-example#readme",
+  "dependencies": {
+    "@podium/browser": "^1.0.0-beta.2",
+    "@podium/layout": "^4.5.1",
+    "@podium/podlet": "^4.3.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
