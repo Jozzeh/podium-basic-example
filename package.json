@@ -27,7 +27,7 @@
   "homepage": "https://github.com/Jozzeh/podium-basic-example#readme",
   "dependencies": {
     "@podium/browser": "^1.0.0-beta.2",
-    "@podium/layout": "^4.5.1",
+    "@podium/layout": "^4.6.110",
     "@podium/podlet": "^4.3.3",
     "express": "^4.17.1"
   },
