@@ -29,7 +29,7 @@
     "@podium/browser": "^1.0.0-beta.2",
     "@podium/layout": "^4.5.1",
     "@podium/podlet": "^4.3.3",
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "npm-run-all": "^4.1.5"
